@@ -41,4 +41,4 @@ Install project requirements
 pip install -r requirements.txt
 
 - Run server
-python app.py
+python runserver.py
