@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="/static/css/main.css" />
+        {% block head %}{% endblock %}
+    </head>
+    <body id="body">
+        <div class="nav-bar">
+            <div class="nav-div">
+                <a href="/dashboard">Dashboard</a>
+                <a href="/reports">Reports</a>
+            </div>
+        </div>
+        {% block content %}
+        <div class="content-div">Welcome to home</div>
+        {% endblock %}
+    </body>
+</html>

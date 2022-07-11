@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+}
+a {
+	margin-left: 15px;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+}
+.nav-bar {
+	display: flex;
+	height: 50px;
+	background-color: gray;
+}
+
+.nav-div {
+	margin: auto;
+}
+
+.content-div {
+	padding: 20px
+}
